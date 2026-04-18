@@ -1,0 +1,33 @@
+.cards {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:20px auto;
+}
+
+.card {
+    width: 250px;
+    background-color: white;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 6px;
+    padding: 20px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.card h3 {
+    margin: 15px 0;
+}
+
+.card .btn-blue {
+    display: inline-block;
+    margin-top: 3px;
+    font-size: 14px;
+}
